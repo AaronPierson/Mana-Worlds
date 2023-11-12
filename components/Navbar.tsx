@@ -14,18 +14,18 @@ const Navbar: React.FC = () => {
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                     <li><Link href='/'>Homepage</Link></li>
                     <li><Link href='/about'>About</Link></li>
-                    <li><a>Games</a></li>
-                    <li><a>News</a></li>
-                    <li><a>Community</a></li>
-                    <li><a>Contact</a></li>
+                    <li><Link href='/games'>Games</Link></li>
+                    {/* <li><Link href='/news'>News</Link></li> */}
+                    <li><Link href='/about'>Community</Link></li>
+                    {/* <li><Link href='/about'>Contact</Link></li> */}
                 </ul>
                 </div>
             </div>
             <div className="navbar-end">
                 <Link href='/' className="btn btn-ghost normal-case text-xl">Mana Worlds</Link>
-                <Link href='/' className="btn btn-ghost normal-case text-xl">Games</Link>
+                <Link href='/games' className="btn btn-ghost normal-case text-xl">Games</Link>
                 <Link href='/about' className="btn btn-ghost normal-case text-xl">About</Link>
-                <Link href='/'className="btn btn-ghost normal-case text-xl">News</Link>
+                {/* <Link href='/news'className="btn btn-ghost normal-case text-xl">News</Link> */}
                 <Link href='/' className="btn btn-ghost normal-case text-xl">Community</Link>
 
             </div>
