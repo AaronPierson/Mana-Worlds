@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // Import your company logo image
-// import logoImage from '../public/imgs/logos/white.png';
+import logoImage from '../public/imgs/logos/white.png';
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       {/* Header section */}
       <section className="text-center bg-cyan-950 w-full h-80 flex flex-col items-center justify-center text-white">
       <header className="mb-8">
-        {/* <Image src={logoImage} alt="Company Logo" width={250} height={250} /> */}
+        <Image src={logoImage} alt="Company Logo" width={250} height={250} />
         <h1 className="text-4xl font-bold">Mana Worlds</h1>
         <p className="mt-2">Innovation in Gaming</p>
       </header>
@@ -22,7 +22,7 @@ export default function Home() {
         <h2 className="text-2xl font-bold m-5">Who is Mana Worlds</h2>
         <div className='flex flex-row w-full columns-3 m-10 items-center'>
           <div className="w-1/2" >
-            {/* <Image className="m-auto" src="/imgs/Icons/accent1-transparent.png" alt="Company Logo" width={400} height={400} /> */}
+            <Image className="m-auto" src="/imgs/Icons/accent1-transparent.png" alt="Company Logo" width={400} height={400} />
           </div>
 
           <div className="divider divider-horizontal"></div>
