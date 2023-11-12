@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" data-theme="dark">
+    <html lang="en" data-theme="night">
       <head>
         <meta charSet="utf-8" />
         {/* <meta name="description" content={metadata.description} /> */}
