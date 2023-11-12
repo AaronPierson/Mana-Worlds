@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // Import your company logo image
-import logoImage from '../public/imgs/logos/white.png';
+import logoImage from '../public/imgs/logos/blob.svg';
 
 export default function Home() {
   return (
@@ -11,8 +11,8 @@ export default function Home() {
       {/* Header section */}
       <section className="text-center bg-cyan-950 w-full h-80 flex flex-col items-center justify-center text-white">
       <header className="mb-8">
-        <Image src={logoImage} alt="Company Logo" width={250} height={250} />
-        <h1 className="text-4xl font-bold">Mana Worlds</h1>
+        <Image src={logoImage} alt="Mana Worlds" width={350} height={350} />
+        {/* <h1 className="text-4xl font-bold">Mana Worlds</h1> */}
         <p className="mt-2">Innovation in Gaming</p>
       </header>
       </section>
