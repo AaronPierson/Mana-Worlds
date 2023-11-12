@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mana Worlds
+
+Welcome to Mana Worlds, where imagination meets reality in the world of game development! 🎮✨
+
+## About Us
+
+Mana Worlds is a passionate community of game developers dedicated to creating immersive and exciting gaming experiences. With a focus on creativity and innovation, we strive to bring enchanting worlds to life.
+
+## Features
+
+- **Game Releases:** Stay tuned for our latest game releases. Experience new adventures and challenges with each release.
+
+- **News and Updates:** Keep up-to-date with the latest news and announcements from the Mana Worlds development team. Discover behind-the-scenes insights and exciting developments.
+
+- **Community Engagement:** Join our community and connect with fellow gamers and developers. Share your thoughts, ideas, and feedback to help shape the future of Mana Worlds.
 
 ## Getting Started
 
-First, run the development server:
+To explore our games and stay updated with the latest news, visit [Mana Worlds](https://www.manaworlds.com).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## In Development/Beta
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Mana Worlds is currently in development/beta. We appreciate your patience and support as we work on bringing you the best gaming experience. Feel free to explore our website and provide feedback on your experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+We welcome contributions from the community. If you're interested in contributing to our projects or have ideas to share, please check out our [Contribution Guidelines](CONTRIBUTING.md).
 
-## Learn More
+## Contact Us
 
-To learn more about Next.js, take a look at the following resources:
+- **Email:** info@manaworlds.com
+- 
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+Thank you for visiting Mana Worlds! Explore, play, and become part of our gaming journey. 🚀🕹️
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
