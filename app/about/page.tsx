@@ -1,6 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { FC } from 'react';
+import { Metadata } from 'next';
+
+export const metadata : Metadata = {
+    title: 'About',
+    description: 'Mana Worlds About Page',
+}
 
 const AboutPage: FC = () => {
     return (

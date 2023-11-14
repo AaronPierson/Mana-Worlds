@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" data-theme="night">
+    <html lang="en" data-theme="nord">
       <head>
         <meta charSet="utf-8" />
         {/* <meta name="description" content={metadata.description} /> */}
@@ -39,16 +39,19 @@ export default function RootLayout({
         <meta property="dc:creator" content="Aaron Pierson" />
         {/* <title>{metadata.title}</title> */}
         <link rel="icon" href="/favicon.ico" />
+        <meta name='keywords' content='Mana Worlds, News, Gaming, Games, Community, About, Contact, Blog, Posts, Posts Page, Post Page, News Page, News Posts, News Post, News Posts Page, News Post Page' />
       </head>
-      {/* Header section */}
-      <Navbar/>
+      <body>
+        
+        {/* Header section */}
+        <Navbar/>
 
+        {/* Main section */}
+        <main className={inter.className}>{children}</main>
 
-      {/* Main section */}
-      <main className={inter.className}>{children}</main>
-
-      {/* Footer section */}
-      <Footer/>
+        {/* Footer section */}
+        <Footer/>
+      </body>
     </html>
   )
 }
