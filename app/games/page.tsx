@@ -13,8 +13,8 @@ const games = [
   {
     id: 1,
     title: 'Shinobi Sprint',
-    description: 'Description of Game 1',
-    image: '/images/game1.jpg',
+    description: 'Navigating meticulously designed levels that progressively accelerate, turning each completion into an adrenaline-packed challenge.',
+    image: '/imgs/games/sprint.png',
   },
   {
     id: 2,
@@ -41,11 +41,14 @@ return (
                 <Image src={game.image} alt={game.title} layout="fill" objectFit="cover" />
             </div>
             <div className="p-4">
-                <h2 className="text-lg font-bold mb-2">{game.title}</h2>
+                <h2 className="text-lg text-gray-600 font-bold mb-2">{game.title}</h2>
                 <p className="text-gray-600">{game.description}</p>
-                <Link href={`/games/${game.id}`}>
-                    Play now
-                </Link>
+                <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg mt-3">
+                  <Link href={`/games/${game.id}`}>
+                      Play now
+                  </Link>
+                </button>
+
             </div>
             </div>
         ))}
