@@ -20,14 +20,14 @@ export default function Home() {
       {/* About section */}
       <section className="text-center bg-zinc-50 w-full h-fit flex flex-col items-center justify-center text-cyan-950">
         <h2 className="text-2xl font-bold m-5">Who is Mana Worlds</h2>
-        <div className='flex flex-row w-full columns-3 m-10 items-center'>
-          <div className="w-1/2" >
+        <div className='flex flex-col md:flex-row w-full m-10 items-center'>
+          <div className="w-full md:w-1/2" >
             <Image className="m-auto" src="/imgs/Icons/accent1-transparent.png" alt="Company Logo" width={400} height={400} />
           </div>
 
-          <div className="divider divider-horizontal"></div>
+          <div className='md:divider md:divider-horizontal'></div>
 
-          <div className='w-1/2 m-8 text-left'>
+          <div className='w-full md:w-1/2 md:m-8 text-left'>
             <p className="text-md m-4">
               Mana Worlds is a software development company that strives to create unforgettable gaming experiences. 
               We are passionate about gaming and are committed to delivering the best gaming experiences to our players. Our team of is made up of talented developers, designers, and gamers who work together to create games that are both fun and challenging. 
@@ -36,7 +36,7 @@ export default function Home() {
               Whether youre a casual gamer or a hardcore gamer, we have something for everyone. 
               Join us on our journey to create the best gaming experiences in the world.
             </p>
-            <Link href="/about">
+            <Link className=" m-4" href="/about">
               <div className="bg-cyan-800 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mt-4 inline-block">
                 More About Us
               </div>
@@ -47,7 +47,7 @@ export default function Home() {
 
       {/* Other Games section */}
       <section className="text-center bg-cyan-950 w-full h-80 flex flex-col items-center justify-center text-white">
-        <p className="text-lg">Explore our diverse portfolio of games that cater to every gaming taste.</p>
+        <p className="text-lg  m-4">Explore our diverse portfolio of games that cater to every gaming taste.</p>
         <Link href="/games">
           <div className="bg-cyan-800 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mt-4 inline-block">
             View Our Games
@@ -57,7 +57,7 @@ export default function Home() {
 
       {/* Community section */}
       <section className="text-center bg-zinc-50 w-full h-80 flex flex-col items-center justify-center text-cyan-950">
-        <p className="text-lg">Join our gaming community to connect with fellow gamers, share experiences, and stay updated.</p>
+        <p className="text-lg  m-4">Join our gaming community to connect with fellow gamers, share experiences, and stay updated.</p>
         <Link href="/community">
           <div className="bg-cyan-800 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mt-4 inline-block">
             Join Community

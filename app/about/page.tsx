@@ -11,10 +11,7 @@ export const metadata : Metadata = {
 const AboutPage: FC = () => {
     return (
         <>
-            <Head>
-                <title>About | Mana Worlds</title>
-            </Head>
-            <div className="flex flex-col items-center justify-center min-h-screen py-2">
+            <div className="flex flex-col items-center m-5 justify-center min-h-screen py-2">
                 <h1 className="text-4xl font-bold mb-4">About Mana Worlds</h1>
                 <div className="flex flex-col md:flex-row items-center justify-center max-w-4xl">
                     <div className="md:w-1/2 p-4">
@@ -33,7 +30,7 @@ const AboutPage: FC = () => {
                     </div>
                     <div className="md:w-1/2 p-4">
                         <Image
-                            src="/images/about.jpg"
+                            src="/imgs/logos/blob2.svg"
                             alt="Mana Worlds team"
                             width={600}
                             height={400}
