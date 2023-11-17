@@ -8,13 +8,17 @@ import logoImage from '../public/imgs/logos/blob.svg';
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center text-white">
-      {/* Header section */}
-      <section className="text-center bg-cyan-950 w-full h-80 flex flex-col items-center justify-center text-white">
-      <header className="mb-8">
-        <Image src={logoImage} alt="Mana Worlds" width={350} height={350} />
-        {/* <h1 className="text-4xl font-bold">Mana Worlds</h1> */}
-        <p className="mt-2">Innovation in Gaming</p>
-      </header>
+      {/* Hero section */}
+      <section className="hero bg-cyan-950 w-full min-h-screen flex flex-col items-center justify-center text-white">
+        <div className="text-center">
+          {/* <div className="max-w-md"> */}
+          <div className="">
+
+            <Image src={logoImage} alt="Mana Worlds" width={500} height={500} />
+            <h1 className="text-4xl font-bold">Mana Worlds</h1>
+            <p className="py-6">Innovation in Gaming</p>
+          </div>
+        </div>
       </section>
 
       {/* About section */}
@@ -55,24 +59,33 @@ export default function Home() {
         </Link>
       </section>
 
-      {/* Community section */}
-      <section className="text-center bg-zinc-50 w-full h-80 flex flex-col items-center justify-center text-cyan-950">
-        <p className="text-lg  m-4">Join our gaming community to connect with fellow gamers, share experiences, and stay updated.</p>
-        <Link href="/community">
-          <div className="bg-cyan-800 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mt-4 inline-block">
-            Join Community
+      {/* Community & News section */}
+      <section className=" bg-zinc-50 w-full h-120">
+        <div className="grid grid-cols-1 md:grid-cols-2 m-10 justify-items-center">
+          <div className="card w-96 bg-cyan-950 text-primary-content">
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">News</h2>
+              <p className="text-lg">Stay in the loop with the latest news, updates, and announcements from Your Game Company Name.</p>
+              <Link href="/news">
+                <div className="bg-cyan-800 hover:bg-cyan-700 font-bold py-2 px-4 rounded mt-4 inline-block">
+                  Read News
+                </div>
+              </Link>      
+            </div>
           </div>
-        </Link>
-      </section>
+          <div className="card w-96 bg-cyan-950 text-primary-content">
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Community</h2>
+              <p className="text-lg">Join our gaming community to connect with fellow gamers, share experiences, and stay updated.</p>
+              <Link target="" href="https://forum.manaworlds.com/">
+                <div className="bg-cyan-800 hover:bg-cyan-700  font-bold py-2 px-4 rounded mt-4 inline-block">
+                  Join Community
+                </div>
+              </Link>    
+            </div>
+          </div>
+        </div>
 
-      {/* News section */}
-      <section className="text-center bg-cyan-950 w-full h-80 flex flex-col items-center justify-center text-white">
-        <p className="text-lg">Stay in the loop with the latest news, updates, and announcements from Your Game Company Name.</p>
-        <Link href="/news">
-          <div className="bg-cyan-800 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mt-4 inline-block">
-            Read News
-          </div>
-        </Link>
       </section>
 
       {/* Media section (Optional) */}
