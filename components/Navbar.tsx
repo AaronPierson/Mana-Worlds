@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
                         <li><Link href='/about'>About</Link></li>
                         <li><Link href='/games'>Games</Link></li>
                         <li><Link href='/news'>News</Link></li>
-                        <li><Link href='/about'>Community</Link></li>
+                        <li><Link target="" href='https://forum.manaworlds.com/'>Community</Link></li>
                         {/* <li><Link href='/about'>Contact</Link></li> */}
                     </ul>
                 </div>
@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
                 <Link href='/games' className="btn btn-ghost normal-case text-xl">Games</Link>
                 <Link href='/about' className="btn btn-ghost normal-case text-xl">About</Link>
                 <Link href='/news'className="btn btn-ghost normal-case text-xl">News</Link>
-                <Link href='/' className="btn btn-ghost normal-case text-xl">Community</Link>
+                <Link target="" href='https://forum.manaworlds.com/' className="btn btn-ghost normal-case text-xl">Community</Link>
 
             </div>
         </div>
