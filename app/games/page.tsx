@@ -15,18 +15,7 @@ const games = [
     title: 'Shinobi Sprint',
     description: 'Navigating meticulously designed levels that progressively accelerate, turning each completion into an adrenaline-packed challenge.',
     image: '/imgs/games/sprint.png',
-  },
-  {
-    id: 2,
-    title: 'Game 2',
-    description: 'Description of Game 2',
-    image: '/images/game2.jpg',
-  },
-  {
-    id: 3,
-    title: 'Game 3',
-    description: 'Description of Game 3',
-    image: '/images/game3.jpg',
+    link: '/shinobi-sprint',
   },
 ];
 
@@ -44,7 +33,7 @@ return (
                 <h2 className="text-lg text-gray-600 font-bold mb-2">{game.title}</h2>
                 <p className="text-gray-600">{game.description}</p>
                 <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg mt-3">
-                  <Link href={`/games/${game.id}`}>
+                  <Link href={`/games/${game.link}`}>
                       Play now
                   </Link>
                 </button>
