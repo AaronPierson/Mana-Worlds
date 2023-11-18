@@ -24,7 +24,6 @@ const Footer: React.FC = () => {
           <header className="footer-title">Legal</header> 
           {/* <Link className="link link-hover">Terms of use</Link>  */}
           <Link href="/legal/privacy-policy" className="link link-hover">Privacy policy</Link> 
-          <Link href="/legal/cookie-policy" className="link link-hover">Cookie policy</Link>
         </nav> 
         {/* <form>
           <header className="footer-title">Newsletter</header> 
