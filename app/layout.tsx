@@ -39,7 +39,8 @@ export default function RootLayout({
         <meta property="dc:creator" content="Aaron Pierson" />
         {/* <title>{metadata.title}</title> */}
         <link rel="icon" href="/favicon.ico" />
-        <script async defer data-website-id="703aab45-45f4-4e37-8324-89727f91438c" src="https://umami.astranexus.online/umami.js"></script>        <meta name='keywords' content='Mana Worlds, News, Gaming, Games, Community, About, Contact, Blog, Posts, Posts Page, Post Page, News Page, News Posts, News Post, News Posts Page, News Post Page' />
+        <script async defer data-website-id="703aab45-45f4-4e37-8324-89727f91438c" src="https://umami.astranexus.online/umami.js"></script>
+        <meta name='keywords' content='Mana Worlds, News, Gaming, Games, Community, About, Contact, Blog, Posts, Posts Page, Post Page, News Page, News Posts, News Post, News Posts Page, News Post Page' />
       </head>
       <body>
         
