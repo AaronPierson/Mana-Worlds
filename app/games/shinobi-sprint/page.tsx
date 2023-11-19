@@ -75,9 +75,9 @@ const ShinobiSprintPage = () => {
                             <p className="text-gray-700">{game.discount}</p>
                         </div> */}
                     </div>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                        Play Now
-                    </button>
+                    <a href="/" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
+                        Download
+                    </a>
                 </div>
             </div>
         </>

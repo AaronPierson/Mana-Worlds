@@ -61,8 +61,8 @@ export default function Home() {
 
       {/* Community & News section */}
       <section className=" bg-zinc-50 w-full h-120">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 m-10 justify-items-center">
-          <div className="card md:w-64 lg:w-96 my-6 bg-cyan-950 text-primary-content">
+        <div className="grid grid-cols-1 md:grid-cols-2 m-10 justify-items-center">
+          <div className="card w-96 bg-cyan-950 text-primary-content">
             <div className="card-body items-center text-center">
               <h2 className="card-title">News</h2>
               <p className="text-lg">Stay in the loop with the latest news, updates, and announcements from Your Game Company Name.</p>
@@ -73,7 +73,7 @@ export default function Home() {
               </Link>      
             </div>
           </div>
-          <div className="card md:w-64 lg:w-96 my-6 bg-cyan-950 text-primary-content">
+          <div className="card w-96 bg-cyan-950 text-primary-content">
             <div className="card-body items-center text-center">
               <h2 className="card-title">Community</h2>
               <p className="text-lg">Join our gaming community to connect with fellow gamers, share experiences, and stay updated.</p>
