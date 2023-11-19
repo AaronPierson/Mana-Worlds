@@ -75,11 +75,12 @@ const ShinobiSprintPage = () => {
                             <p className="text-gray-700">{game.discount}</p>
                         </div> */}
                     </div>
-                    <a href="/" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
-                        Download
-                    </a>
+                    {/* <a href="/" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
+                        Play
+                    </a> */}
                 </div>
             </div>
+            <iframe className="w-screen h-screen" src="https://itch.io/embed-upload/9131603?color=333333"></iframe>
         </>
     );
 };
