@@ -18,7 +18,7 @@ const ShinobiSprintPage = () => {
 
     return (
         <>
-            <div className="flex flex-col md:flex-row">
+            <div className="flex flex-col bg-zinc-50 text-cyan-700 md:flex-row">
                 <div className="md:w-1/2 p-4">
                     <img src={game.image} alt={game.title} className="w-full" />
                 </div>
@@ -27,31 +27,31 @@ const ShinobiSprintPage = () => {
                     <p className="text-gray-700 mb-4">{game.description}</p>
                     <div className="flex mb-4">
                         <div className="w-1/2">
-                            <p className="text-gray-700 font-bold">Developer:</p>
+                            <p className="text-cyan-700 font-bold">Developer:</p>
                             <p className="text-gray-700">{game.developer}</p>
                         </div>
                         <div className="w-1/2">
-                            <p className="text-gray-700 font-bold">Publisher:</p>
+                            <p className="text-cyan-700 font-bold">Publisher:</p>
                             <p className="text-gray-700">{game.publisher}</p>
                         </div>
                     </div>
                     <div className="flex mb-4">
                         <div className="w-1/2">
-                            <p className="text-gray-700 font-bold">Release Date:</p>
+                            <p className="text-cyan-700 font-bold">Release Date:</p>
                             <p className="text-gray-700">{game.releaseDate}</p>
                         </div>
                         <div className="w-1/2">
-                            <p className="text-gray-700 font-bold">Platforms:</p>
+                            <p className="text-cyan-700 font-bold">Platforms:</p>
                             <p className="text-gray-700">{game.platforms.join(", ")}</p>
                         </div>
                     </div>
                     <div className="flex mb-4">
                         <div className="w-1/2">
-                            <p className="text-gray-700 font-bold">Genres:</p>
+                            <p className="text-cyan-700 font-bold">Genres:</p>
                             <p className="text-gray-700">{game.genres.join(", ")}</p>
                         </div>
                         <div className="w-1/2">
-                            <p className="text-gray-700 font-bold">Tags:</p>
+                            <p className="text-cyan-700 font-bold">Tags:</p>
                             <p className="text-gray-700">{game.tags.join(", ")}</p>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const ShinobiSprintPage = () => {
                     </div> */}
                     <div className="flex mb-4">
                         <div className="w-1/2">
-                            <p className="text-gray-700 font-bold">Price:</p>
+                            <p className="text-cyan-700 font-bold">Price:</p>
                             <p className="text-gray-700">{game.price}</p>
                         </div>
                         {/* <div className="w-1/2">

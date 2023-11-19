@@ -18,7 +18,7 @@ export default async function PostPage({ params }: { params: { newsId: string } 
     const post: Post = data.data;  // Access the 'data' property of the response
     const imgURL = "https://mana-news.astranexus.online/assets/"
     return (
-        <div className="container content-center items-center m-10 mx-auto">
+        <div className="container content-center items-center m-10 mx-auto ">
             <Link href="/news">
                 <p className="text-cyan-500 mt-5 ml-5 hover:underline">Back to News</p>
             </Link>
