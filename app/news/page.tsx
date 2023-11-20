@@ -25,7 +25,7 @@ const NewsPage = async () => {
         });
 
     return (
-    <div className="container m-5 mx-auto">
+    <div className="container mx-auto py-8 ">
     <h1 className="text-3xl m-5 font-bold mb-8">Latest News</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {post.map(post => (
@@ -42,7 +42,7 @@ const NewsPage = async () => {
             ))}
         </div>
     </div>
-  );
+    );
 };
 
 export default NewsPage;

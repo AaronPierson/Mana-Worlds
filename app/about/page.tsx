@@ -10,8 +10,8 @@ export const metadata : Metadata = {
 
 const AboutPage: FC = () => {
     return (
-        <>
-            <div className="flex flex-col items-center m-5 justify-center min-h-screen py-2">
+        <div className="container mx-auto py-8">
+            <div className="flex flex-col items-center m-5 justify-center min-h-screen py-8">
                 <h1 className="text-4xl font-bold mb-4">About Mana Worlds</h1>
                 <div className="flex flex-col md:flex-row items-center justify-center max-w-4xl">
                     <div className="md:w-1/2 p-4">
@@ -39,7 +39,7 @@ const AboutPage: FC = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

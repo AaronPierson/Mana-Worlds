@@ -19,10 +19,7 @@ const ShinobiSprintPage = () => {
 
     return (
         <>
-        
-            <div className="flex flex-col bg-zinc-50 text-cyan-700 md:flex-row">
-
-
+            <div className="flex flex-col bg-zinc-50 text-cyan-700 md:flex-row ">
                 <div className="md:w-1/2 p-4">
                     <Image src={game.image} width={500} height={500} alt={game.title} className="w-full" />
                 </div>

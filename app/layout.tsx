@@ -49,7 +49,7 @@ export default function RootLayout({
         <Navbar/>
 
         {/* Main section */}
-        <main className="{`inter.className`} bg-cyan-950 py-8">{children}</main>
+        <main className="{`inter.className`} bg-cyan-950">{children}</main>
 
         {/* Footer section */}
         <Footer/>
