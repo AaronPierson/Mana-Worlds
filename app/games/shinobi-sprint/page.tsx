@@ -18,10 +18,16 @@ const ShinobiSprintPage = () => {
 
     return (
         <>
+        
             <div className="flex flex-col bg-zinc-50 text-cyan-700 md:flex-row">
+
+
                 <div className="md:w-1/2 p-4">
                     <img src={game.image} alt={game.title} className="w-full" />
                 </div>
+                <iframe src="https://itch.io/embed-upload/9138229?color=333333" width="960" height="560">
+                    <a href="https://aaen.itch.io/shinobi-sprint">Play Shinobi Sprint on itch.io</a>
+                </iframe>
                 <div className="md:w-1/2 p-4">
                     <h1 className="text-3xl font-bold mb-2">{game.title}</h1>
                     <p className="text-gray-700 mb-4">{game.description}</p>
@@ -80,7 +86,6 @@ const ShinobiSprintPage = () => {
                     </a> */}
                 </div>
             </div>
-            <iframe className="w-screen h-screen" src="https://itch.io/embed-upload/9131603?color=333333"></iframe>
         </>
     );
 };
