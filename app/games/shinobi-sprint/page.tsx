@@ -7,7 +7,7 @@ const ShinobiSprintPage = () => {
         developer: "Mana Worlds",
         publisher: "Mana Worlds",
         releaseDate: "TBD 2024",
-        platforms: ["PC", "Android",],
+        platforms: ["PC", "Android", "Web"],
         genres: ["Platformer"],
         tags: [ "Arcade", "Fast-Paced"],
         price: "Free",
