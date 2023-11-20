@@ -16,7 +16,7 @@ export default function Home() {
 
             <Image src={logoImage} alt="Mana Worlds" width={500} height={500} />
             <h1 className="text-4xl font-bold">Mana Worlds</h1>
-            <p className="py-6">Innovation in Gaming</p>
+            <p className="py-6">Summoning Worlds, Weaving Stories</p>
           </div>
         </div>
       </section>

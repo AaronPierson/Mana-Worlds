@@ -3,15 +3,13 @@ import Image from 'next/image';
 const ShinobiSprintPage = () => {
     const game = {
         title: "Shinobi Sprint",
-        description: "A fast-paced ninja racing game.",
+        description: "A fast-paced ninja Platformer game.",
         developer: "Mana Worlds",
         publisher: "Mana Worlds",
-        releaseDate: "2022-01-01",
-        platforms: ["PC", "Xbox",],
-        genres: ["Platformer", "Action"],
-        tags: ["Ninja", "Arcade", "Fast-Paced"],
-        metacriticScore: 85,
-        userScore: 8.5,
+        releaseDate: "TBD 2024",
+        platforms: ["PC", "Android",],
+        genres: ["Platformer"],
+        tags: [ "Arcade", "Fast-Paced"],
         price: "Free",
         discount: "10%",
         image: '/imgs/games/sprint.png',
@@ -56,16 +54,6 @@ const ShinobiSprintPage = () => {
                             <p className="text-gray-700">{game.tags.join(", ")}</p>
                         </div>
                     </div>
-                    {/* <div className="flex mb-4">
-                        <div className="w-1/2">
-                            <p className="text-gray-700 font-bold">Metacritic Score:</p>
-                            <p className="text-gray-700">{game.metacriticScore}</p>
-                        </div>
-                        <div className="w-1/2">
-                            <p className="text-gray-700 font-bold">User Score:</p>
-                            <p className="text-gray-700">{game.userScore}</p>
-                        </div>
-                    </div> */}
                     <div className="flex mb-4">
                         <div className="w-1/2">
                             <p className="text-cyan-700 font-bold">Price:</p>
