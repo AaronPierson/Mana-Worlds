@@ -1,3 +1,4 @@
+import Image from 'next/image';
 
 const ShinobiSprintPage = () => {
     const game = {
@@ -23,11 +24,8 @@ const ShinobiSprintPage = () => {
 
 
                 <div className="md:w-1/2 p-4">
-                    <img src={game.image} alt={game.title} className="w-full" />
+                    <Image src={game.image} width={500} height={500} alt={game.title} className="w-full" />
                 </div>
-                <iframe src="https://itch.io/embed-upload/9138229?color=333333" width="960" height="560">
-                    <a href="https://aaen.itch.io/shinobi-sprint">Play Shinobi Sprint on itch.io</a>
-                </iframe>
                 <div className="md:w-1/2 p-4">
                     <h1 className="text-3xl font-bold mb-2">{game.title}</h1>
                     <p className="text-gray-700 mb-4">{game.description}</p>
@@ -84,6 +82,9 @@ const ShinobiSprintPage = () => {
                     {/* <a href="/" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
                         Play
                     </a> */}
+                    <iframe className='w-auto'  src="https://itch.io/embed/2375646?dark=true" width="552" height="167">
+                        <a href="https://aaen.itch.io/shinobi-sprint">testing by Aaen</a>
+                    </iframe>
                 </div>
             </div>
         </>

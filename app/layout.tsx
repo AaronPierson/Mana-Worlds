@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Mana Worlds',
   description: 'Video Game Software Development Company',
+  metadataBase: new URL('https://manaworlds.com'),
   openGraph: {
     title: 'Mana Worlds',
     description: 'Video Game Software Development Company',
